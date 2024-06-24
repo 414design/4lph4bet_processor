@@ -84,4 +84,4 @@ The script will save the processed images in an `[input_filename]_intermediate_o
 
 ## License
 
-`CC BY-SA 4.0`
+This LoRA is provided under a `CC BY-SA 4.0` license. 
