@@ -67,7 +67,7 @@ python process_4lph4bet_grid_image.py
 
 The script will ask for the absolute path to your grid image. Provide the path and press Enter.
 
-### Recommended Image Size
+### Recommended Image Size
 
 It is recommended (but not necessary) to upscale the grid image to 4096 by 4096 pixels for better processing results.
 
@@ -82,6 +82,6 @@ The script will save the processed images in an `[input_filename]_intermediate_o
 - Further post processing like kerning or baseline offset might be required in Calligraphr.
 - The free version of Calligraphy only allows 75 characters to be exported as a font so in this case the character set needs to be reduced before export.
 
-## License
+## License
 
 `CC BY-SA 4.0`
