@@ -1,6 +1,6 @@
 # 4lph4bet Processor
 
-This scripty processes a grid image generated with the 4lph4bet family of LoRAs for Stable Diffusion 1.5 (e.g. [4lph4bet-next_v040](https://huggingface.co/414design/4lph4bet-next_v040)) for font creation using [Calligraphr](https://www.calligraphr.com/). The script `process_4lph4bet_grid_image.py` performs the following tasks:
+This scripty processes a grid image generated with the [4lph4bet family of LoRAs](https://huggingface.co/collections/414design/4lph4bet-lora-collection-6679647c1ce38cec234e8204) for Stable Diffusion 1.5 for font creation using [Calligraphr](https://www.calligraphr.com/). The script `process_4lph4bet_grid_image.py` performs the following tasks:
 
 1. Resizes the input grid image if necessary.
 2. Converts the image to grayscale and applies Canny edge detection.
