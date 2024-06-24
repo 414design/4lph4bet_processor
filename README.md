@@ -1,4 +1,4 @@
-4lph4bet Processor
+# 4lph4bet Processor
 
 This scripty processes a grid image generated with the 4lph4bet family of LoRAs for Stable Diffusion 1.5 for font creation using [Calligraphr](https://www.calligraphr.com/). The script `process_4lph4bet_grid_image.py` performs the following tasks:
 
