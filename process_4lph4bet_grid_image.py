@@ -46,6 +46,11 @@ img = cv2.imread(input_path)
 if img is None:
     raise FileNotFoundError(f"Image not found at {input_path}")
 
+# Check and resize the image to 4096x4096 pixels
+height, width, _ = img.shape
+if height != 4096 or width != 4096:
+    img = cv2.resize(img, (4096, 4096))
+
 # Extract the filename from the input path
 filename = os.path.basename(input_path)
 filename_without_extension = os.path.splitext(filename)[0]
